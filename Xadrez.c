@@ -23,5 +23,18 @@ int main()
             printf("esquerda\n");
         }
                 printf("-----------------------------------\n");
-        return 0
+        
+        
+            printf("Cavalo:\n");
+            for (int cavalov = 1; cavalov <= 2; cavalov++) {
+                printf("Baixo\n");
+                    if (cavalov == 2) { 
+                for (int cavaloh = 1; cavaloh <= 1; cavaloh++) {
+                    printf("Esquerda\n");
+                }
+            }
+        }
+                printf("-----------------------------------\n");
+    
+    return 0;
 }
